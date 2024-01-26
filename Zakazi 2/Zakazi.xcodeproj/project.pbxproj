@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A680DB12B6302F000D680A3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A680DB02B6302F000D680A3 /* GoogleService-Info.plist */; };
-		7A680DB22B6302F000D680A3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A680DB02B6302F000D680A3 /* GoogleService-Info.plist */; };
-		7A680DB32B6302F000D680A3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A680DB02B6302F000D680A3 /* GoogleService-Info.plist */; };
 		7A680DB62B63048200D680A3 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7A680DB52B63048200D680A3 /* FirebaseAnalytics */; };
 		7A680DB82B63048200D680A3 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 7A680DB72B63048200D680A3 /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		7A680DBA2B63048200D680A3 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7A680DB92B63048200D680A3 /* FirebaseAuth */; };
@@ -30,6 +27,10 @@
 		7A7748812B62C0A300B4C832 /* RegisterViewPoslodavac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7748802B62C0A300B4C832 /* RegisterViewPoslodavac.swift */; };
 		7A7748832B62C78200B4C832 /* RegisterViewKupac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7748822B62C78200B4C832 /* RegisterViewKupac.swift */; };
 		7A7748852B62C86D00B4C832 /* RegisterViewKupacModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7748842B62C86D00B4C832 /* RegisterViewKupacModel.swift */; };
+		7AD882392B63AEFB00734A7A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AD882382B63AEFB00734A7A /* GoogleService-Info.plist */; };
+		7AD8823A2B63AEFB00734A7A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AD882382B63AEFB00734A7A /* GoogleService-Info.plist */; };
+		7AD8823B2B63AEFB00734A7A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AD882382B63AEFB00734A7A /* GoogleService-Info.plist */; };
+		7AD8823D2B63CAF400734A7A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD8823C2B63CAF400734A7A /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +51,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7A680DB02B6302F000D680A3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7A7748452B625D1900B4C832 /* Zakazi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zakazi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A7748482B625D1900B4C832 /* ZakaziApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZakaziApp.swift; sourceTree = "<group>"; };
 		7A77484A2B625D1900B4C832 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +69,8 @@
 		7A7748802B62C0A300B4C832 /* RegisterViewPoslodavac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewPoslodavac.swift; sourceTree = "<group>"; };
 		7A7748822B62C78200B4C832 /* RegisterViewKupac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewKupac.swift; sourceTree = "<group>"; };
 		7A7748842B62C86D00B4C832 /* RegisterViewKupacModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewKupacModel.swift; sourceTree = "<group>"; };
+		7AD882382B63AEFB00734A7A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7AD8823C2B63CAF400734A7A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +103,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7A680DBF2B6308EC00D680A3 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		7A77483C2B625D1900B4C832 = {
 			isa = PBXGroup;
 			children = (
@@ -131,8 +126,7 @@
 		7A7748472B625D1900B4C832 /* Zakazi */ = {
 			isa = PBXGroup;
 			children = (
-				7A680DB02B6302F000D680A3 /* GoogleService-Info.plist */,
-				7A680DBF2B6308EC00D680A3 /* Model */,
+				7AD882382B63AEFB00734A7A /* GoogleService-Info.plist */,
 				7A7748752B625EBB00B4C832 /* ViewModel */,
 				7A7748742B625E8100B4C832 /* Slike */,
 				7A7748732B625E3400B4C832 /* Other */,
@@ -176,6 +170,7 @@
 				7A77487C2B628BB400B4C832 /* DvaDugmeta.swift */,
 				7A7748802B62C0A300B4C832 /* RegisterViewPoslodavac.swift */,
 				7A7748822B62C78200B4C832 /* RegisterViewKupac.swift */,
+				7AD8823C2B63CAF400734A7A /* MainView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -321,8 +316,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A7748502B625D1B00B4C832 /* Preview Assets.xcassets in Resources */,
-				7A680DB12B6302F000D680A3 /* GoogleService-Info.plist in Resources */,
 				7A77484D2B625D1B00B4C832 /* Assets.xcassets in Resources */,
+				7AD882392B63AEFB00734A7A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +325,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A680DB22B6302F000D680A3 /* GoogleService-Info.plist in Resources */,
+				7AD8823A2B63AEFB00734A7A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +333,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A680DB32B6302F000D680A3 /* GoogleService-Info.plist in Resources */,
+				7AD8823B2B63AEFB00734A7A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +351,7 @@
 				7A77487F2B628DAC00B4C832 /* RegisterViewPoslodavacModel.swift in Sources */,
 				7A7748772B625EE500B4C832 /* HeaderView.swift in Sources */,
 				7A77487D2B628BB400B4C832 /* DvaDugmeta.swift in Sources */,
+				7AD8823D2B63CAF400734A7A /* MainView.swift in Sources */,
 				7A7748812B62C0A300B4C832 /* RegisterViewPoslodavac.swift in Sources */,
 				7A7748492B625D1900B4C832 /* ZakaziApp.swift in Sources */,
 				7A77487B2B62638E00B4C832 /* TLButton.swift in Sources */,

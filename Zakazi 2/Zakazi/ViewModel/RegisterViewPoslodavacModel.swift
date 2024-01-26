@@ -8,6 +8,7 @@
 import Foundation
 import FirebaseAuth
 import FirebaseFirestore
+import FirebaseCore
 
 class RegisterViewModel:ObservableObject{
     @Published var email=""
@@ -24,7 +25,10 @@ class RegisterViewModel:ObservableObject{
         guard validate() else{
             return
         }
-        //
+      
+        Auth.auth().createUser(withEmail: email, password: Lozinka) { authResult, error in
+          // ...
+        }
         
     }
     
