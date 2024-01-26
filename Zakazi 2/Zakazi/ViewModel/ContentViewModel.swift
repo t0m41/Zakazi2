@@ -18,7 +18,16 @@ class LoginViewViewModel:ObservableObject{
         guard validate() else{
             return
         }
-            //
+        Auth.auth().signIn(withEmail: email, password: password) { [weak self] authResult, error in
+            if let error = error {
+                print("neuspesno")
+            }
+            else{
+                print("uspesno")
+            }
+            
+        }
+        
     }
     func validate()->Bool{
         Error=""
